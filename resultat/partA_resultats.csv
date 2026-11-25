@@ -1,0 +1,8 @@
+,accuracy,precision,recall,f1,ms / paire,train (min)
+Majoritaire,0.5485,0.0,0.0,0.0,,
+TF-IDF + features + LogReg,0.666,0.6746,0.5028,0.5761,,
+TF-IDF + features + RandomForest,0.679,0.7318,0.4563,0.5621,,
+MiniLM + seuil cosinus,0.4555,0.4529,0.9911,0.6217,1.58,
+"MiniLM + LogReg [u,v,|u-v|,u*v]",0.5865,0.5763,0.3178,0.4097,,
+CamemBERT (fine-tuné),0.888,0.8631,0.8937,0.8781,1.88,5.6
+XLM-R (fine-tuné),0.857,0.8342,0.8527,0.8434,2.73,12.4

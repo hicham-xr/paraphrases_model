@@ -1,0 +1,26 @@
+# Environnement virtuel
+.venv/
+__pycache__/
+*.pyc
+
+# Modèles entraînés (produits par le notebook, lourds)
+models/
+xlmr_fr/
+xlmr_multi/
+camembert_fr/
+
+# Dossier rapport et temporaires
+rapport/
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.toc
+
+# Sorties Streamlit
+.streamlit/
+
+# Logs d'installation
+*.log
+
